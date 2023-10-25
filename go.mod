@@ -31,8 +31,8 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/gogo/googleapis v1.4.0
 	github.com/gogo/protobuf v1.3.2
-	github.com/google/go-cmp v0.5.6
-	github.com/google/uuid v1.2.0
+	github.com/google/go-cmp v0.5.9
+	github.com/google/uuid v1.3.0
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/hashicorp/go-multierror v1.0.0
@@ -52,7 +52,7 @@ require (
 	github.com/prometheus/client_golang v1.11.0
 	github.com/satori/go.uuid v1.2.0 // indirect
 	github.com/sirupsen/logrus v1.8.1
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.3
 	github.com/tchap/go-patricia v2.2.6+incompatible
 	github.com/urfave/cli v1.22.2
 	github.com/vishvananda/netlink v1.1.1-0.20210330154013-f5de75959ad5
@@ -62,13 +62,11 @@ require (
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.3.0
 	go.opentelemetry.io/otel/sdk v1.3.0
 	go.opentelemetry.io/otel/trace v1.3.0
-	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20211216021012-1d35b9e2eb4e
-	golang.org/x/text v0.3.7 // indirect
-	google.golang.org/genproto v0.0.0-20211208223120-3a66f561d7aa // indirect
-	google.golang.org/grpc v1.43.0
-	google.golang.org/protobuf v1.27.1
+	golang.org/x/net v0.9.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.7.0
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 	gotest.tools/v3 v3.0.3
 	k8s.io/api v0.22.0
 	k8s.io/apimachinery v0.22.0
